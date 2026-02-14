@@ -103,3 +103,30 @@ Groq-powered AI accelerated insight communication while preserving analytical ac
 ---
 
 📌 This project demonstrates how traditional data analytics combined with Groq-powered AI reporting can uncover pricing inefficiencies and improve decision-making speed.
+## ▶️ How to Execute the Project
+## 1. Clone the Repository
+git clone <your-repo-link>
+cd sales-profitability-analytics
+## 2. Install Dependencies
+pip install pandas numpy matplotlib seaborn jupyter
+## 3. (Optional) Setup Groq API
+
+Create an account on Groq.
+
+Generate an API key.
+
+Add it to your environment variables:
+
+export GROQ_API_KEY="your_api_key"
+
+(Windows users can use setx GROQ_API_KEY "your_api_key")
+
+## 4. Run the Notebook
+jupyter notebook retail.ipynb
+
+Execute all cells to reproduce the cleaning steps, analysis, visualizations, and AI-generated insights.
+## 5. View Outputs
+
+Charts will be saved as PNG files.
+
+Review the notebook for detailed numerical analysis and executive summaries.
